@@ -65,16 +65,14 @@ void main(int argc, char *argv[]) {
 				STATUS(x, y, gameboard);                          //백.흑돌 몇개 씩인지 보여주기 
 				//flip result보여줄 수 있는 문자열 출력해야해!!!!!// 
 
-				arr_cpy(m_arr_cpy, arr); //??????????????????뭘 의미할까 
-				
-				Can_I_Put_There_W_to_B(arr); //?????????????둘 수 있는 곳 바뀐 변화 
+		 
 				
 				Stone(gameboard);             //변화들 ox로 시각화해주기 	
 				
 				if (gameover(gameboard) == 1)   //gameover함수가 1을 반환하면 게임은 이제 더이상 진행X. 
 					{
 						Finish(gameboard);
-						while (1);  //????????????왠 뜬금없는 while(1)
+						
 						return 0;
 					}
 
