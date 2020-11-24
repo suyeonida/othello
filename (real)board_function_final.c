@@ -4,7 +4,7 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 	
-//º¸µåÆÇ ÃÊ±âÈ­ »óÅÂ  
+//ÂºÂ¸ÂµÃ¥Ã†Ã‡ ÃƒÃŠÂ±Ã¢ÃˆÂ­ Â»Ã³Ã…Ã‚  
 
 int main(int argc, char *argv[]) {
 	int gameboard[6][6]={0};
